@@ -1,0 +1,9 @@
+datasheets
+design notes
+*.bak
+*.bck
+*.swp
+*-cache.lib
+*.kicad_pcb-bak
+gerbers
+helot.xml
