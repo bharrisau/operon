@@ -1,0 +1,22 @@
+{
+  documentation: "http://ww1.microchip.com/downloads/en/DeviceDoc/22058c.pdf"
+  symbol:
+    width: 600
+    pins: [
+      [7, "VDD", "power", "l"]
+      [4, "GND", "power", "n"]
+      [2, "Vin-", "in", "l"]
+      [3, "Vin+", "in", "l"]
+      [6, "Vout", "out", "r"]
+    ]
+  package:
+    sop:
+      pins: 8
+      A: [1.75, 1.7]
+      D: [5, 4.8]
+      E: [6.1, 5.9]
+      E1: [4, 3.8]
+      e: 1.27
+      b: [0.51, 0.31]
+      L: [1.27, 0.4]
+}

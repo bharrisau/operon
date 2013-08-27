@@ -1,0 +1,20 @@
+{
+  documentation: "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf"
+  symbol:
+    width: 600
+    pins: [
+      [4, "VDD", "power", "l"]
+      [2, "GND", "power", "n"]
+      [3, "Vout", "out", "r"]
+    ]
+  package:
+    sot:
+      pins: 6
+      A: [1.1, 0.8]
+      D: [2.25, 1.8]
+      E: [2.4, 1.8]
+      E1: [1.35, 1.15]
+      e: 0.65
+      b: [0.4, 0.15]
+      L: [0.46, 0.1]
+}
