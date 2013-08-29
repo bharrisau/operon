@@ -1,0 +1,16 @@
+{
+  symbol:
+    pins: [
+      [1, "VCC", "power", "l"]
+      [2, "CLK", "io", "l"]
+      [3, "GND", "power", "l"]
+      [4, "DIO", "io", "l"]
+    ]
+  package:
+    header:
+      x: 2
+      y: 2
+      e: 2.54
+      hole: 1
+      pad: 1.5
+}

@@ -1,7 +1,6 @@
 {
   documentation: "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf"
   symbol:
-    width: 600
     pins: [
       [4, "VDD", "power", "l"]
       [2, "GND", "power", "n"]
