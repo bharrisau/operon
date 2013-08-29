@@ -518,19 +518,19 @@ COLD
 $Comp
 L R R?
 U 1 1 521C5A54
-P 10100 1450
-F 0 "R?" V 10180 1450 40  0000 C CNN
-F 1 "4.7k" V 10107 1451 40  0000 C CNN
-F 2 "RESC1608N" V 10030 1450 30  0001 C CNN
-F 3 "" H 10100 1450 30  0000 C CNN
-	1    10100 1450
-	-1   0    0    1   
+P 9850 1800
+F 0 "R?" V 9930 1800 40  0000 C CNN
+F 1 "4.7k" V 9857 1801 40  0000 C CNN
+F 2 "RESC1608N" V 9780 1800 30  0001 C CNN
+F 3 "" H 9850 1800 30  0000 C CNN
+	1    9850 1800
+	0    1    1    0   
 $EndComp
 Text Label 10400 1800 2    60   ~ 0
 DAL
 Text Label 7150 4000 0    60   ~ 0
 COLD
-Text Label 8300 3850 0    60   ~ 0
+Text Label 5350 3400 2    60   ~ 0
 DAL
 $Comp
 L CONN_8 P?
@@ -795,7 +795,7 @@ F 3 "" H 800 4750 30  0000 C CNN
 $EndComp
 Text Notes 1000 4750 0    60   ~ 0
 Charge current:\n1000/R
-Text Label 8300 3950 0    60   ~ 0
+Text Label 7150 4300 0    60   ~ 0
 CHG
 $Comp
 L +3.3V #PWR?
@@ -828,12 +828,12 @@ RESET
 $Comp
 L +5V #PWR?
 U 1 1 521EA33E
-P 10400 1000
-F 0 "#PWR?" H 10400 1090 20  0001 C CNN
-F 1 "+5V" H 10400 1090 30  0000 C CNN
-F 2 "" H 10400 1000 60  0000 C CNN
-F 3 "" H 10400 1000 60  0000 C CNN
-	1    10400 1000
+P 10400 1600
+F 0 "#PWR?" H 10400 1690 20  0001 C CNN
+F 1 "+5V" H 10400 1690 30  0000 C CNN
+F 2 "" H 10400 1600 60  0000 C CNN
+F 3 "" H 10400 1600 60  0000 C CNN
+	1    10400 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1081,16 +1081,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 6000 2500 6000
 Wire Wire Line
-	10400 1000 10400 1700
-Wire Wire Line
-	10400 1100 10100 1100
-Wire Wire Line
-	10100 1100 10100 1200
-Wire Wire Line
 	10400 1700 10500 1700
-Connection ~ 10400 1100
-Wire Wire Line
-	10100 1700 10100 1800
 Wire Wire Line
 	10100 1800 10500 1800
 Wire Wire Line
@@ -1298,11 +1289,11 @@ Wire Wire Line
 	9900 4900 9900 5000
 Wire Wire Line
 	9900 5000 10200 5000
-Text Label 8300 4050 0    60   ~ 0
+Text Label 7150 4400 0    60   ~ 0
 GPIO1
-Text Label 8300 4150 0    60   ~ 0
+Text Label 7150 4500 0    60   ~ 0
 GPIO2
-Text Label 8300 4250 0    60   ~ 0
+Text Label 7150 4600 0    60   ~ 0
 GPIO3
 Text Label 3800 7400 2    60   ~ 0
 GPIO4
@@ -1405,7 +1396,7 @@ Wire Wire Line
 	10100 5500 10200 5500
 Wire Wire Line
 	10100 5600 10200 5600
-Text Label 8300 4350 0    60   ~ 0
+Text Label 7150 5800 0    60   ~ 0
 GPIO4
 Text Label 8500 3100 2    60   ~ 0
 S1
@@ -1413,9 +1404,9 @@ Text Label 9600 3200 2    60   ~ 0
 S2
 Wire Wire Line
 	8200 3100 8600 3100
-Text Label 8300 4450 0    60   ~ 0
+Text Label 7150 4100 0    60   ~ 0
 S1
-Text Label 8300 4550 0    60   ~ 0
+Text Label 7150 4200 0    60   ~ 0
 S2
 Text Label 7150 5200 0    60   ~ 0
 CS
@@ -1514,4 +1505,37 @@ Wire Wire Line
 Wire Wire Line
 	9900 3500 10000 3500
 Connection ~ 10000 3500
+Wire Wire Line
+	7150 5800 7050 5800
+$Comp
+L +3.3V #PWR?
+U 1 1 521F0BD3
+P 9500 1700
+F 0 "#PWR?" H 9500 1660 30  0001 C CNN
+F 1 "+3.3V" H 9500 1810 30  0000 C CNN
+F 2 "" H 9500 1700 60  0000 C CNN
+F 3 "" H 9500 1700 60  0000 C CNN
+	1    9500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1600 10400 1700
+Wire Wire Line
+	9500 1700 9500 1800
+Wire Wire Line
+	9500 1800 9600 1800
+Wire Wire Line
+	5350 3400 5450 3400
+Wire Wire Line
+	7150 4300 7050 4300
+Wire Wire Line
+	7050 4100 7150 4100
+Wire Wire Line
+	7050 4200 7150 4200
+Wire Wire Line
+	7050 4400 7150 4400
+Wire Wire Line
+	7050 4500 7150 4500
+Wire Wire Line
+	7050 4600 7150 4600
 $EndSCHEMATC
