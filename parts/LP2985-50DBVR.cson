@@ -1,0 +1,21 @@
+{
+  documentation: "http://www.ti.com/lit/ds/symlink/lp2985-18.pdf"
+  symbol:
+    pins: [
+      [1, "Vin", "power", "l"]
+      [2, "GND", "power", "n"]
+      [3, "EN", "in", "l"]
+      [6, "Vout", "supply", "r"]
+      [3, "BYP", "passive", "r"]
+    ]
+  package:
+    sot:
+      pins: 6
+      A: [1.45, 1.25]
+      D: [3.05, 2.75]
+      E: [3, 2.6]
+      E1: [1.75, 1.45]
+      e: 0.95
+      b: [0.5, 0.3]
+      L: [0.55, 0.3]
+}

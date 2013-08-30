@@ -1,0 +1,53 @@
+{ 
+  package:
+    custom:
+      refdes: [0, -5]
+      pads: [
+        {
+          num: 1
+          location: [-1.85, -2.2]
+          size: [0.6, 1]
+          square: true
+        }
+        {
+          num: 1
+          location: [-1.85, 2.2]
+          size: [0.6, 1]
+          square: true
+        }
+        {
+          num: 2
+          location: [1.85, -2.2]
+          size: [0.6, 1]
+          square: true
+        }
+        {
+          num: 2
+          location: [1.85, 2.2]
+          size: [0.6, 1]
+          square: true
+        }
+        {
+          num: ""
+          location: [-2.525, 0]
+          size: [0.45, 1]
+          square: true
+        }
+        {
+          num: ""
+          location: [2.525, 0]
+          size: [0.45, 1]
+          square: true
+        }
+      ]
+      silk: [
+        {
+          start: [-1.325, -2.45]
+          end: [1.325, -2.45]
+        }
+        {
+          start: [-1.325, 2.45]
+          end: [1.325, 2.45]
+        }
+      ]
+}

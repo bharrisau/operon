@@ -6,4 +6,5 @@ design notes
 *-cache.lib
 *.kicad_pcb-bak
 gerbers
-helot.xml
+operon.xml
+_autosave*

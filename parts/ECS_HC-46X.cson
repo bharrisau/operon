@@ -1,0 +1,9 @@
+{ 
+  package:
+    header:
+      x: 1
+      y: 2
+      e: 2.5
+      hole: 0.7
+      pad: 1.05
+}

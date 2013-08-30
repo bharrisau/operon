@@ -1,0 +1,13 @@
+{ 
+  package:
+    custom:
+      refdes: [0, -1.75]
+      pads: [
+        {
+          num: ""
+          location: [0, 0]
+          drill: [3.2]
+          hole: true
+        }
+      ]
+}
