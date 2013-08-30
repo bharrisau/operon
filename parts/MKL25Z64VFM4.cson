@@ -1,0 +1,51 @@
+{
+  documentation: "http://cache.freescale.com/files/32bit/doc/data_sheet/KL25P80M48SF0.pdf"
+  symbol:
+    width: 1000
+    pins: [
+      [15, "VDD", "power", "l"]
+      [7, "VDDA", "power", "l"]
+      [6, "VREGIN", "power", "l"]
+      [5, "VOUT33", "supply", "r"]
+      [1, "PTE0", "io", "l"]
+      [2, "GND", "power", "n"]
+      [3, "USB0_DP", "io", "r"]
+      [4, "USB0_DM", "io", "r"]
+      [8, "GND", "power", "n"]
+      [9, "PTE30", "io", "l"]
+      [10, "PTA0", "io", "l"]
+      [11, "PTA1", "io", "l"]
+      [12, "PTA2", "io", "l"]
+      [13, "PTA3", "io", "l"]
+      [14, "PTA4", "io", "l"]
+      [16, "GND", "power", "n"]
+      [17, "PTA18", "io", "l"]
+      [18, "PTA19", "io", "l"]
+      [19, "RESET", "io", "l"]
+      [20, "PTB0", "io", "r"]
+      [21, "PTB1", "io", "r"]
+      [22, "PTC1", "io", "r"]
+      [23, "PTC2", "io", "r"]
+      [24, "PTC3", "io", "r"]
+      [25, "PTC4", "io", "r"]
+      [26, "PTC5", "io", "r"]
+      [27, "PTC6", "io", "r"]
+      [28, "PTC7", "io", "r"]
+      [29, "PTD4", "io", "r"]
+      [30, "PTD5", "io", "r"]
+      [31, "PTD6", "io", "r"]
+      [32, "PTD7", "io", "r"]
+      [33, "GND", "power", "n"]
+    ]
+  package:
+    qfn:
+      pins: 32
+      A: [1, 0.8]
+      D: [5.1, 4.9]
+      E: [5.1, 4.9]
+      D2: [3.7, 3.5]
+      E2: [3.7, 3.5]
+      e: 0.5
+      b: [0.3, 0.18]
+      L: [0.5, 0.3]
+}

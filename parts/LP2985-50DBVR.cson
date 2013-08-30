@@ -6,7 +6,7 @@
       [2, "GND", "power", "n"]
       [3, "EN", "in", "l"]
       [6, "Vout", "supply", "r"]
-      [3, "BYP", "passive", "r"]
+      [4, "BYP", "passive", "r"]
     ]
   package:
     sot:

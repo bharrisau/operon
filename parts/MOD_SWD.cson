@@ -2,9 +2,9 @@
   symbol:
     pins: [
       [1, "VCC", "power", "l"]
-      [2, "CLK", "io", "l"]
+      [2, "DIO", "io", "l"]
       [3, "GND", "power", "l"]
-      [4, "DIO", "io", "l"]
+      [4, "CLK", "io", "l"]
     ]
   package:
     header:

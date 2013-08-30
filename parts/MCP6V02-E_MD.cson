@@ -1,0 +1,27 @@
+{
+  documentation: "http://ww1.microchip.com/downloads/en/DeviceDoc/22058c.pdf"
+  symbol:
+    width: 600
+    pins: [
+      [8, "VDD", "power", "l"]
+      [4, "GND", "power", "n"]
+      [9, "GND", "power", "n"]
+      [1, "VoutA", "out", "r"]
+      [3, "VinA+", "in", "l"]
+      [2, "VinA-", "in", "l"]
+      [5, "VinB+", "in", "l"]
+      [6, "VinB-", "in", "l"]
+      [7, "VoutB", "out", "r"]
+    ]
+  package:
+    son:
+      pins: 8
+      A: [0.8, 0.7]
+      D: [2.1, 1.9]
+      E: [3.1, 2.9]
+      D2: [1.6, 1.2]
+      E2: [1.6, 1.2]
+      e: 0.5
+      b: [0.3, 0.2]
+      L: [0.45, 0.25]
+}
