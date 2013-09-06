@@ -3,7 +3,7 @@
   (general
     (links 225)
     (no_connects 58)
-    (area 99.949999 99.949999 150.050001 150.050001)
+    (area 97.848334 91.921667 152.151666 155.385)
     (thickness 1.6)
     (drawings 26)
     (tracks 364)
@@ -273,10 +273,10 @@
     (add_net GND)
   )
 
-  (module HEADER254P1X2 (layer F.Cu) (tedit 521FF5A7) (tstamp 5220042D)
+  (module HEADER254P1X2 (layer F.Cu) (tedit 52292DBD) (tstamp 5220042D)
     (at 137.5 146.5 90)
     (path /521DD97A)
-    (fp_text reference BT1 (at 0 -3.165 90) (layer F.SilkS)
+    (fp_text reference BT1 (at 0 -3.165 90) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value BATTERY (at 0 0 90) (layer F.SilkS) hide
@@ -309,10 +309,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 52200061)
+  (module CAPC1608N (layer F.Cu) (tedit 52292E39) (tstamp 52200061)
     (at 122 141 90)
     (path /521C3805)
-    (fp_text reference C1 (at 0 -1.3 90) (layer F.SilkS)
+    (fp_text reference C1 (at 1.9 0 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0 90) (layer F.SilkS) hide
@@ -369,10 +369,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 52200085)
+  (module CAPC1608N (layer F.Cu) (tedit 52292E32) (tstamp 52200085)
     (at 120 137.5 90)
     (path /521C3A9D)
-    (fp_text reference C3 (at 0 -1.3 90) (layer F.SilkS)
+    (fp_text reference C3 (at 0 -1.6 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0 90) (layer F.SilkS) hide
@@ -399,10 +399,10 @@
     )
   )
 
-  (module CAPC2012N (layer F.Cu) (tedit 521FF5B6) (tstamp 522002DE)
+  (module CAPC2012N (layer F.Cu) (tedit 52292DE7) (tstamp 522002DE)
     (at 137 143.5)
     (path /521DE7FB)
-    (fp_text reference C5 (at 0 -1.55) (layer F.SilkS)
+    (fp_text reference C5 (at 2.4 0) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 22u (at 0 0) (layer F.SilkS) hide
@@ -429,10 +429,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 522000BB)
+  (module CAPC1608N (layer F.Cu) (tedit 52292E0E) (tstamp 522000BB)
     (at 135 125 180)
     (path /521CC571)
-    (fp_text reference C7 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference C7 (at 2.3 -1.3 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 6p (at 0 0 180) (layer F.SilkS) hide
@@ -459,10 +459,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 522000CD)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D96) (tstamp 522000CD)
     (at 135 123 180)
     (path /521CC577)
-    (fp_text reference C8 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference C8 (at -2.2 0 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 6p (at 0 0 180) (layer F.SilkS) hide
@@ -489,10 +489,10 @@
     )
   )
 
-  (module CAPC2012N (layer F.Cu) (tedit 521FF5B6) (tstamp 522002F0)
+  (module CAPC2012N (layer F.Cu) (tedit 52292E00) (tstamp 522002F0)
     (at 126.5 135 270)
     (path /521C55F7)
-    (fp_text reference C9 (at 0 -1.55 270) (layer F.SilkS)
+    (fp_text reference C9 (at 2.2 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 22u (at 0 0 270) (layer F.SilkS) hide
@@ -519,10 +519,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 521FFDB5)
+  (module CAPC1608N (layer F.Cu) (tedit 52292E11) (tstamp 521FFDB5)
     (at 135 127)
     (path /521C55EB)
-    (fp_text reference C10 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference C10 (at -2.6 0.4) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0) (layer F.SilkS) hide
@@ -549,10 +549,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 52292954) (tstamp 521FFF9B)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D53) (tstamp 521FFF9B)
     (at 125 116)
     (path /521C608A)
-    (fp_text reference C11 (at 1.8 -1.2) (layer F.SilkS)
+    (fp_text reference C11 (at 0 -1.2) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0) (layer F.SilkS) hide
@@ -579,10 +579,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 52200019)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D8C) (tstamp 52200019)
     (at 140 120)
     (path /521CB469)
-    (fp_text reference C14 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference C14 (at -1.9 0 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0) (layer F.SilkS) hide
@@ -609,10 +609,10 @@
     )
   )
 
-  (module CAPC2012N (layer F.Cu) (tedit 522815D4) (tstamp 52200302)
+  (module CAPC2012N (layer F.Cu) (tedit 52292CF8) (tstamp 52200302)
     (at 110 121 180)
     (path /521C480C)
-    (fp_text reference C15 (at 0 -1.55 180) (layer F.SilkS)
+    (fp_text reference C15 (at 1.9 1.4 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 22u (at 0 0 180) (layer F.SilkS) hide
@@ -639,10 +639,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 522929C9) (tstamp 52200007)
+  (module CAPC1608N (layer F.Cu) (tedit 52292CB8) (tstamp 52200007)
     (at 115 118)
     (path /521C3442)
-    (fp_text reference C16 (at -2.5 0) (layer F.SilkS)
+    (fp_text reference C16 (at -2 -1.1) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0) (layer F.SilkS) hide
@@ -669,10 +669,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 521FFFF5)
+  (module CAPC1608N (layer F.Cu) (tedit 52292E26) (tstamp 521FFFF5)
     (at 120 132.5 270)
     (path /521C345A)
-    (fp_text reference C17 (at 0 -1.3 270) (layer F.SilkS)
+    (fp_text reference C17 (at 0 2 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0 270) (layer F.SilkS) hide
@@ -699,10 +699,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 5227FBF8) (tstamp 521FFFE3)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D71) (tstamp 521FFFE3)
     (at 135 118)
     (path /521C31AF)
-    (fp_text reference C18 (at 0 1.5) (layer F.SilkS)
+    (fp_text reference C18 (at 1.6 -1.2) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0) (layer F.SilkS) hide
@@ -729,10 +729,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 5220FC41)
+  (module CAPC1608N (layer F.Cu) (tedit 52292DFD) (tstamp 5220FC41)
     (at 127.5 131.5)
     (path /521C32B9)
-    (fp_text reference C19 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference C19 (at 1.7 1.3) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 0) (layer F.SilkS) hide
@@ -789,10 +789,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 522929E2) (tstamp 521FFF2F)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D36) (tstamp 521FFF2F)
     (at 120 116 180)
     (path /521C43C7/521C474B)
-    (fp_text reference C22 (at -1.5 -0.4 180) (layer F.SilkS)
+    (fp_text reference C22 (at -2 0.1 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0 180) (layer F.SilkS) hide
@@ -819,10 +819,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 521FFF41)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D00) (tstamp 521FFF41)
     (at 110 118 180)
     (path /521C43C7/521C4778)
-    (fp_text reference C23 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference C23 (at -1.9 -1.2 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0 180) (layer F.SilkS) hide
@@ -849,10 +849,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 521FFF53)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D88) (tstamp 521FFF53)
     (at 140 118)
     (path /521C43C7/521C47A4)
-    (fp_text reference C24 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference C24 (at 2 0 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0) (layer F.SilkS) hide
@@ -879,10 +879,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 521FFF65)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D57) (tstamp 521FFF65)
     (at 130 116)
     (path /521C43C7/521C47D0)
-    (fp_text reference C25 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference C25 (at -2 0 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0) (layer F.SilkS) hide
@@ -939,10 +939,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 521FFF89)
+  (module CAPC1608N (layer F.Cu) (tedit 52292CE2) (tstamp 521FFF89)
     (at 120 120 180)
     (path /521C43C7/521C477E)
-    (fp_text reference C27 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference C27 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0 180) (layer F.SilkS) hide
@@ -969,10 +969,10 @@
     )
   )
 
-  (module CAPC1608N (layer F.Cu) (tedit 521FF5BA) (tstamp 5220004F)
+  (module CAPC1608N (layer F.Cu) (tedit 52292D61) (tstamp 5220004F)
     (at 130 120)
     (path /521C43C7/521C47AA)
-    (fp_text reference C28 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference C28 (at -0.7 1.4) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 0) (layer F.SilkS) hide
@@ -1029,10 +1029,10 @@
     )
   )
 
-  (module SOD3717X135N (layer F.Cu) (tedit 521FF55F) (tstamp 5220034F)
+  (module SOD3717X135N (layer F.Cu) (tedit 52292DF4) (tstamp 5220034F)
     (at 130 137 270)
     (path /521DD8ED)
-    (fp_text reference D1 (at 0 -1.475 270) (layer F.SilkS)
+    (fp_text reference D1 (at 1.7 1.7 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1N5819HW (at 0 0 270) (layer F.SilkS) hide
@@ -1067,10 +1067,10 @@
     )
   )
 
-  (module LEDC2012N (layer F.Cu) (tedit 521FF58D) (tstamp 522002CC)
+  (module LEDC2012N (layer F.Cu) (tedit 52292D0E) (tstamp 522002CC)
     (at 115 129)
     (path /521EB464)
-    (fp_text reference D3 (at 0 -1.55) (layer F.SilkS)
+    (fp_text reference D3 (at 0 1.7) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value LED (at 0 0) (layer F.SilkS) hide
@@ -1097,10 +1097,10 @@
     )
   )
 
-  (module SOD3717X135N (layer F.Cu) (tedit 521FF55F) (tstamp 52200369)
+  (module SOD3717X135N (layer F.Cu) (tedit 52292DB5) (tstamp 52200369)
     (at 142.5 127 90)
     (path /521EE5F7)
-    (fp_text reference D4 (at 0 -1.475 90) (layer F.SilkS)
+    (fp_text reference D4 (at 1.3 1.7 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1N5819HW (at 0 0 90) (layer F.SilkS) hide
@@ -1135,10 +1135,10 @@
     )
   )
 
-  (module SOD3717X135N (layer F.Cu) (tedit 521FF55F) (tstamp 52200383)
+  (module SOD3717X135N (layer F.Cu) (tedit 52292DC9) (tstamp 52200383)
     (at 142.5 133 270)
     (path /521EDFF9)
-    (fp_text reference D5 (at 0 -1.475 270) (layer F.SilkS)
+    (fp_text reference D5 (at 3.1 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 1N5819HW (at 0 0 270) (layer F.SilkS) hide
@@ -1173,10 +1173,10 @@
     )
   )
 
-  (module INDC1608N (layer F.Cu) (tedit 521FF596) (tstamp 521FFFBF)
+  (module INDC1608N (layer F.Cu) (tedit 52292E35) (tstamp 521FFFBF)
     (at 120 141 90)
     (path /521C37F0)
-    (fp_text reference L1 (at 0 -1.3 90) (layer F.SilkS)
+    (fp_text reference L1 (at 0 -1.5 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value FBlow (at 0 0 90) (layer F.SilkS) hide
@@ -1203,10 +1203,10 @@
     )
   )
 
-  (module INDC1608N (layer F.Cu) (tedit 521FF596) (tstamp 521FFFD1)
+  (module INDC1608N (layer F.Cu) (tedit 52292D07) (tstamp 521FFFD1)
     (at 110 123 180)
     (path /521C4F8A)
-    (fp_text reference L2 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference L2 (at 1.3 -1.3 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value FBlow (at 0 0 180) (layer F.SilkS) hide
@@ -1233,10 +1233,10 @@
     )
   )
 
-  (module FCI_10118194 (layer F.Cu) (tedit 521FF5AA) (tstamp 52200559)
+  (module FCI_10118194 (layer F.Cu) (tedit 52293207) (tstamp 52200559)
     (at 125 150)
     (path /521C329D)
-    (fp_text reference P1 (at 0 -1.75) (layer F.SilkS)
+    (fp_text reference P1 (at 0 -1.75) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value USB (at 0 0) (layer F.SilkS) hide
@@ -1298,10 +1298,10 @@
     )
   )
 
-  (module MOD_SWD (layer F.Cu) (tedit 521FF568) (tstamp 522004F5)
+  (module MOD_SWD (layer F.Cu) (tedit 52292D9D) (tstamp 522004F5)
     (at 133.5 131)
     (path /521E9EB8)
-    (fp_text reference P3 (at 0 -3.165) (layer F.SilkS)
+    (fp_text reference P3 (at 0 -3.165) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value MOD_SWD (at 0 0) (layer F.SilkS) hide
@@ -1402,10 +1402,10 @@
     )
   )
 
-  (module HEADER350P1x4 (layer F.Cu) (tedit 521FF59F) (tstamp 52200573)
+  (module HEADER350P1x4 (layer F.Cu) (tedit 52292DB7) (tstamp 52200573)
     (at 146 134)
     (path /521EAAB0)
-    (fp_text reference P5 (at 0 -7.625) (layer F.SilkS)
+    (fp_text reference P5 (at 0 -7.625) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value HEADER2 (at 0 0) (layer F.SilkS) hide
@@ -1590,10 +1590,10 @@
     )
   )
 
-  (module SOT190P230X100-3N (layer F.Cu) (tedit 521FF55B) (tstamp 5220039B)
+  (module SOT190P230X100-3N (layer F.Cu) (tedit 52292DEE) (tstamp 5220039B)
     (at 134 136 90)
     (path /521D613C)
-    (fp_text reference Q1 (at 0 -2.15 90) (layer F.SilkS)
+    (fp_text reference Q1 (at 1.4 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value AO3401A (at 0 0 90) (layer F.SilkS) hide
@@ -1629,10 +1629,10 @@
     )
   )
 
-  (module SOT190P230X100-3N (layer F.Cu) (tedit 521FF55B) (tstamp 522003B3)
+  (module SOT190P230X100-3N (layer F.Cu) (tedit 52292DAE) (tstamp 522003B3)
     (at 139 126)
     (path /521EA794)
-    (fp_text reference Q2 (at 0 -2.15) (layer F.SilkS)
+    (fp_text reference Q2 (at 1.6 -1.1) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value ZXMN3A01F (at 0 0) (layer F.SilkS) hide
@@ -1668,10 +1668,10 @@
     )
   )
 
-  (module SOT190P230X100-3N (layer F.Cu) (tedit 521FF55B) (tstamp 522003CB)
+  (module SOT190P230X100-3N (layer F.Cu) (tedit 52292DD0) (tstamp 522003CB)
     (at 139 130)
     (path /521EA895)
-    (fp_text reference Q3 (at 0 -2.15) (layer F.SilkS)
+    (fp_text reference Q3 (at 1.6 -1.1) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value ZXMN3A01F (at 0 0) (layer F.SilkS) hide
@@ -1797,10 +1797,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 521FFDFD)
+  (module RESC1608N (layer F.Cu) (tedit 52292D13) (tstamp 521FFDFD)
     (at 110 129)
     (path /521EB6DB)
-    (fp_text reference R4 (at 0 -1.3) (layer F.SilkS)
+    (fp_text reference R4 (at 0 1.6) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 4.7k (at 0 0) (layer F.SilkS) hide
@@ -1827,10 +1827,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 521FFE33)
+  (module RESC1608N (layer F.Cu) (tedit 52292E2A) (tstamp 521FFE33)
     (at 122 132.5 270)
     (path /521CBFB7)
-    (fp_text reference R7 (at 0 -1.3 270) (layer F.SilkS)
+    (fp_text reference R7 (at 2 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 33 (at 0 0 270) (layer F.SilkS) hide
@@ -1857,10 +1857,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 521FFEF9)
+  (module RESC1608N (layer F.Cu) (tedit 52292E2D) (tstamp 521FFEF9)
     (at 124 132.5 270)
     (path /521CC053)
-    (fp_text reference R8 (at 0 -1.3 270) (layer F.SilkS)
+    (fp_text reference R8 (at 2 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 33 (at 0 0 270) (layer F.SilkS) hide
@@ -1917,10 +1917,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 521FFE69)
+  (module RESC1608N (layer F.Cu) (tedit 52292DDB) (tstamp 521FFE69)
     (at 139 133 180)
     (path /521EF3ED)
-    (fp_text reference R10 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference R10 (at 2 0 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 100k (at 0 0 180) (layer F.SilkS) hide
@@ -1947,10 +1947,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 521FFE7B)
+  (module RESC1608N (layer F.Cu) (tedit 52292CDD) (tstamp 521FFE7B)
     (at 115 123 180)
     (path /521C5A54)
-    (fp_text reference R11 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference R11 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 4.7k (at 0 0 180) (layer F.SilkS) hide
@@ -2697,10 +2697,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 522929DC) (tstamp 5220015D)
+  (module RESC1608N (layer F.Cu) (tedit 52292D2E) (tstamp 5220015D)
     (at 120 114)
     (path /521C43C7/521C46D7)
-    (fp_text reference R36 (at 1.9 0.2) (layer F.SilkS)
+    (fp_text reference R36 (at -1.9 0.2 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 0) (layer F.SilkS) hide
@@ -2727,10 +2727,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 5220014B)
+  (module RESC1608N (layer F.Cu) (tedit 52292CF3) (tstamp 5220014B)
     (at 110 116 180)
     (path /521C43C7/521C476C)
-    (fp_text reference R37 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference R37 (at 1.8 1.1 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 0 180) (layer F.SilkS) hide
@@ -2787,10 +2787,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 5220026B)
+  (module RESC1608N (layer F.Cu) (tedit 52292D47) (tstamp 5220026B)
     (at 130 114 180)
     (path /521C43C7/521C47C4)
-    (fp_text reference R39 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference R39 (at -2 0 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 0 180) (layer F.SilkS) hide
@@ -2817,10 +2817,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 522929E0) (tstamp 52200115)
+  (module RESC1608N (layer F.Cu) (tedit 52292CEC) (tstamp 52200115)
     (at 120 118)
     (path /521C43C7/521C4745)
-    (fp_text reference R40 (at -1.9 0.4) (layer F.SilkS)
+    (fp_text reference R40 (at -1.9 0 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 0) (layer F.SilkS) hide
@@ -2847,7 +2847,7 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 522929CC) (tstamp 52200103)
+  (module RESC1608N (layer F.Cu) (tedit 52292CDE) (tstamp 52200103)
     (at 115 120)
     (path /521C43C7/521C4772)
     (fp_text reference R41 (at 0 1.4) (layer F.SilkS)
@@ -2877,10 +2877,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 522000F1)
+  (module RESC1608N (layer F.Cu) (tedit 52292D93) (tstamp 522000F1)
     (at 135 120 180)
     (path /521C43C7/521C479E)
-    (fp_text reference R42 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference R42 (at -0.4 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 0 180) (layer F.SilkS) hide
@@ -2907,10 +2907,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 521FF563) (tstamp 522000DF)
+  (module RESC1608N (layer F.Cu) (tedit 52292D65) (tstamp 522000DF)
     (at 130 118 180)
     (path /521C43C7/521C47CA)
-    (fp_text reference R43 (at 0 -1.3 180) (layer F.SilkS)
+    (fp_text reference R43 (at -2 0 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 0 180) (layer F.SilkS) hide
@@ -3054,10 +3054,10 @@
     )
   )
 
-  (module MOD_nRF24L01 (layer F.Cu) (tedit 521FF56C) (tstamp 52200591)
+  (module MOD_nRF24L01 (layer F.Cu) (tedit 52292E3D) (tstamp 52200591)
     (at 113 145 270)
     (path /521EA7E3)
-    (fp_text reference U6 (at 0 -5.705 270) (layer F.SilkS)
+    (fp_text reference U6 (at 0 -5.705 270) (layer F.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value MOD_NRF24L01 (at 0 0 270) (layer F.SilkS) hide
@@ -3114,10 +3114,10 @@
     )
   )
 
-  (module LEDC2012N (layer F.Cu) (tedit 52201E0F) (tstamp 5220EDF7)
+  (module LEDC2012N (layer F.Cu) (tedit 52292DE0) (tstamp 5220EDF7)
     (at 138.5 136.5 90)
     (path /522057C4)
-    (fp_text reference D6 (at 0 -1.55 90) (layer F.SilkS)
+    (fp_text reference D6 (at 0 1.8 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value CHRG (at 0 0 90) (layer F.SilkS) hide
@@ -3144,10 +3144,10 @@
     )
   )
 
-  (module RESC1608N (layer F.Cu) (tedit 52201DE0) (tstamp 5220EE08)
+  (module RESC1608N (layer F.Cu) (tedit 52292DE4) (tstamp 5220EE08)
     (at 138.5 140 90)
     (path /522058CF)
-    (fp_text reference R44 (at 0 -1.3 90) (layer F.SilkS)
+    (fp_text reference R44 (at 0 1.9 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value 4.7k (at 0 0 90) (layer F.SilkS) hide
@@ -3236,10 +3236,10 @@
     )
   )
 
-  (module MCP6V02-E_MD (layer F.Cu) (tedit 522929D0) (tstamp 5220FC13)
+  (module MCP6V02-E_MD (layer F.Cu) (tedit 52292C9E) (tstamp 5220FC13)
     (at 115 115 180)
     (path /521C43C7/522016D2)
-    (fp_text reference U8 (at -1.7 -1.8 180) (layer F.SilkS)
+    (fp_text reference U8 (at 0 1.8 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value MCP6V02-E_MD (at 0 0 180) (layer F.SilkS) hide
@@ -3298,10 +3298,10 @@
     )
   )
 
-  (module MCP6V02-E_MD (layer F.Cu) (tedit 5227FBF9) (tstamp 5220EE76)
+  (module MCP6V02-E_MD (layer F.Cu) (tedit 52292D79) (tstamp 5220EE76)
     (at 135 115 180)
     (path /521C43C7/522016F5)
-    (fp_text reference U9 (at -3 0 180) (layer F.SilkS)
+    (fp_text reference U9 (at 0.1 1.8 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value MCP6V02-E_MD (at 0 0 180) (layer F.SilkS) hide
@@ -3360,10 +3360,10 @@
     )
   )
 
-  (module OSC-3225 (layer F.Cu) (tedit 5223DB8B) (tstamp 52244C26)
+  (module OSC-3225 (layer F.Cu) (tedit 52292DA8) (tstamp 52244C26)
     (at 132 123.5 90)
     (path /521CCA75)
-    (fp_text reference X1 (at 0 -1.75 90) (layer F.SilkS)
+    (fp_text reference X1 (at 2.6 0.2 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value "HC-46X 16M" (at 0 0 90) (layer F.SilkS) hide
@@ -3389,10 +3389,10 @@
     )
   )
 
-  (module MKL25Z64VFT4 (layer F.Cu) (tedit 5227F913) (tstamp 5228706C)
+  (module MKL25Z64VFT4 (layer F.Cu) (tedit 52292D1A) (tstamp 5228706C)
     (at 125 126 90)
     (path /5227E20C)
-    (fp_text reference U5 (at 0 -4.43 90) (layer F.SilkS)
+    (fp_text reference U5 (at -3.7 -4.8 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value MKL25Z64VFT4 (at 0 0 90) (layer F.SilkS) hide
@@ -3661,10 +3661,10 @@
     )
   )
 
-  (module MCP73831T-2ACI_OT (layer F.Cu) (tedit 5229287A) (tstamp 52299F51)
+  (module MCP73831T-2ACI_OT (layer F.Cu) (tedit 52292DEB) (tstamp 52299F51)
     (at 134 140 180)
     (path /521DDC42)
-    (fp_text reference U1 (at 0 -2.175 180) (layer F.SilkS)
+    (fp_text reference U1 (at -2.3 2 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     )
     (fp_text value MCP73831T-2ACI_OT (at 0 0 180) (layer F.SilkS) hide
@@ -3785,16 +3785,16 @@
   (gr_text RA1 (at 108.5 108) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
-  (gr_text - (at 141.5 101) (layer F.SilkS)
+  (gr_text - (at 141 101) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
-  (gr_text - (at 127.5 101) (layer F.SilkS)
+  (gr_text - (at 128 101) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
-  (gr_text - (at 108.5 101) (layer F.SilkS)
+  (gr_text - (at 109 101) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
-  (gr_text - (at 122.5 101) (layer F.SilkS)
+  (gr_text - (at 122 101) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
   )
   (gr_text + (at 115.5 101) (layer F.SilkS)
@@ -4013,7 +4013,7 @@
   (via (at 129.8 124.9) (size 0.6) (layers F.Cu B.Cu) (net 23))
   (segment (start 129.65 124.75) (end 129.8 124.9) (width 0.15) (layer F.Cu) (net 23) (tstamp 522B2600))
   (segment (start 129.8 124.9) (end 133.3 121.4) (width 0.15) (layer B.Cu) (net 23))
-  (segment (start 143 119.8) (end 143.65 119.8) (width 0.15) (layer F.Cu) (net 23) (tstamp 5229A459) (status 800000))
+  (segment (start 143 119.8) (end 143.65 119.8) (width 0.15) (layer F.Cu) (net 23) (tstamp 5229A459))
   (segment (start 141.4 121.4) (end 143 119.8) (width 0.15) (layer F.Cu) (net 23) (tstamp 5229A457))
   (segment (start 121.52 124.75) (end 117.65 124.75) (width 0.15) (layer F.Cu) (net 24))
   (via (at 112.1 127.2) (size 0.6) (layers F.Cu B.Cu) (net 24))
