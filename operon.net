@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ben/git/operon/operon.sch)
-    (date "Thu 05 Sep 2013 16:50:34 WST")
+    (date "Fri 06 Sep 2013 08:56:44 WST")
     (tool "eeschema (2013-07-14 BZR 4242)-testing"))
   (components
     (comp (ref C18)
@@ -595,18 +595,6 @@
       (sheetpath (names /AFE/) (tstamps /521C43C7/))
       (tstamp 52201718)))
   (libparts
-    (libpart (lib edalm) (part FCI_10118194)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) FCI_10118194)
-        (field (name Footprint) FCI_10118194))
-      (pins
-        (pin (num 1) (name VBus) (type power_out))
-        (pin (num 2) (name D-) (type BiDi))
-        (pin (num 3) (name D+) (type BiDi))
-        (pin (num 4) (name ID) (type passive))
-        (pin (num 5) (name GND) (type power_in))
-        (pin (num 6) (name Shield) (type passive))))
     (libpart (lib edalm) (part IP4221CZ6-S)
       (fields
         (field (name Reference) U)
@@ -636,6 +624,18 @@
         (pin (num 7) (name VoutB) (type output))
         (pin (num 8) (name VDD) (type power_in))
         (pin (num 9) (name GND) (type power_in))))
+    (libpart (lib edalm) (part FCI_10118194)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) FCI_10118194)
+        (field (name Footprint) FCI_10118194))
+      (pins
+        (pin (num 1) (name VBus) (type power_out))
+        (pin (num 2) (name D-) (type BiDi))
+        (pin (num 3) (name D+) (type BiDi))
+        (pin (num 4) (name ID) (type passive))
+        (pin (num 5) (name GND) (type power_in))
+        (pin (num 6) (name Shield) (type passive))))
     (libpart (lib edalm) (part MCP6V02-E_MD)
       (fields
         (field (name Reference) U)
@@ -663,7 +663,7 @@
         (pin (num 2) (name GND) (type power_in))
         (pin (num 3) (name VBat) (type power_out))
         (pin (num 4) (name VDD) (type power_in))
-        (pin (num 6) (name PROG) (type input))))
+        (pin (num 5) (name PROG) (type input))))
     (libpart (lib edalm) (part MCP9700AT-E_LT)
       (fields
         (field (name Reference) U)
@@ -909,7 +909,7 @@
       (node (ref U1) (pin 4))
       (node (ref R3) (pin 1)))
     (net (code 3) (name "")
-      (node (ref U1) (pin 6))
+      (node (ref U1) (pin 5))
       (node (ref R1) (pin 1)))
     (net (code 4) (name /AFE/TC2)
       (node (ref R41) (pin 2))
