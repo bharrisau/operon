@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Foundation 4</title>
+  <title>Operon</title>
 
   
   <link rel="stylesheet" href="stylesheets/app.css">
@@ -16,113 +16,87 @@
 
 </head>
 <body>
-  <nav class="top-bar">
-    <ul class="title-area">
-      <!-- Title Area -->
-      <li class="name">
-        <h1>
-          <a href="#">
-            Top Bar Title
-          </a>
-        </h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-    </ul>
- 
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li class="divider"></li>
-        <li><a href="#">Main Item 1</a></li>
-        <li class="divider"></li>
-        <li><a href="#">Main Item 2</a></li>
-        <li class="divider"></li>
-        <li><a href="#">Main Item 3</a></li>
+  <div class="contain-to-grid">
+    <nav class="top-bar">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
       </ul>
-    </section>
-  </nav>
+   
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+<!--           <li class="divider"></li>
+          <li><a href="#">Main Item 1</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Main Item 2</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Main Item 3</a></li>
+          <li class="divider"></li> -->
+        </ul>
+      </section>
+    </nav>
+  </div>
 
   <header>
     <div class="row">
   		<div class="large-12 columns">
-  			<h2>Welcome to Foundation</h2>
-  			<p>This is version 4.3.1.</p>
-  			<hr />
+  			<h1>Operon</h1>
+  			<h3>Flexible ARM based temperature controller.</h3>
   		</div>
   	</div>
   </header>
 
-	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
-
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
+	<main role="main">
+    <div class="row">
+  		<div class="large-12 columns">
+        <h2>What is Operon?</h2>
+        <p>Operon is an open source project that combines a very accurate 4 channel thermocouple input block with an ARM processor. Operon is degined for projects ranging from reflow oven controllers to brewing computers.</p>
+        <hr>
+        <div class="row">
+          <div class="large-4 small-6 columns">
+            <h3>Thermocouples</h3>
+            <p>Operon support all types of thermocouple, and different types can be used at the same time.</p>
+          </div>
+          <div class="large-4 small-6 columns">
+            <h3>Digital probes</h3>
+            <p>Operon includes suport for Dallas 1-wire temperature probes, and any number can be used at once.</p>
+          </div>
+          <div class="large-4 small-6 columns">
+            <h3>Accuracy</h3>
+            <p>With cold-junction sensing in an isothermal section, Operon avoids the heatup issues in single-chip designs.</p>
+          </div>
+          <div class="large-4 small-6 columns">
+            <h3>Inputs/Outputs</h3>
+            <p>With 4 open-drain FET outputs, 3 general purpose IO and 2 buttons, Operon has enough IO for just about any project.</p>
+          </div>
+          <div class="large-4 small-6 columns">
+            <h3>Communication</h3>
+            <p>USB is used to upload and monitor control programs, but Operon also includes support cheap Nordic nRF24L01+ wireless modules.</p>
+          </div>
+          <div class="large-4 small-6 columns">
+            <h3>Size</h3>
+            <p>Operon packs a lot into its tiny 5cm by 5cm footprint.</p>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
+        <hr>
+        <h2>How do I get started?</h2>
+        <p>Get yourself an Operon by building your own, assembling a kit, or buying one ready made. Then install the development kit and jump in.</p>
+        <p>For people new to writing programs, we have a number of tutorials available to get you up to speed in no time.</p>
+  		</div>
+  	</div>
+  </main>
+
+  <footer>
+    <div class="row">
+      <div class="large-6 columns">
+          <p>&copy; Copyright Ben Harris 2013.</p>
       </div>
-		</div>
-
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
-		</div>
-	</div>
+      </div>
+    </div>
+  </footer>
 
   <script>
   document.write('<script src=' +

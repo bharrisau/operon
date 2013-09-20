@@ -4,6 +4,30 @@
 // Comment out this import if you don't want to use normalize
 @import "normalize";
 
+// Override settings
+$topbar-margin-bottom: 0;
+$primary-color: #0B61A4;
+$secondary-color: #033E6B;
+$alert-color: #c60f13;
+$success-color: #5da423;
+$body-bg: #F2F2F2;
+$body-font-color: #222;
+$body-font-family: 'Lucida Grande','Calibri',Helvetica,Arial,sans-serif;
+$body-font-weight: normal;
+$body-font-style: normal;
+
+$header-font-family: 'Lucida Grande','Calibri',Helvetica,Arial,sans-serif;
+$header-font-weight: normal;
+$header-font-style: normal;
+$header-font-color: #222;
+$header-line-height: 1.4;
+$header-top-margin: .2em;
+$header-bottom-margin: .5em;
+$header-text-rendering: optimizeLegibility;
+
+$footer-height: 150px;
+
+
 // Comment out this import if you are customizing you imports below
 // @import "foundation";
 
@@ -42,7 +66,7 @@
 // @import "foundation/components/labels";
 // @import "foundation/components/inline-lists";
 // @import "foundation/components/pagination";
-@import "foundation/components/panels";
+// @import "foundation/components/panels";
 // @import "foundation/components/pricing-tables";
 // @import "foundation/components/progress-bars";
 // @import "foundation/components/side-nav";
@@ -54,3 +78,38 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+// Custom styles
+
+html {
+  background: $primary-color;
+}
+
+nav {
+
+}
+
+header {
+  padding-top: emCalc(30);
+  padding-bottom: emCalc(30);
+  margin-bottom: emCalc(30);
+  background: $primary-color;
+
+  h1 {
+    font-weight: bold;
+  }
+  h1, h3 {
+    color: #FFFFFF;
+  }
+}
+
+main {
+
+}
+
+
+footer {
+  color: #FFFFFF;
+  margin-top: emCalc(30);
+  background: $primary-color;
+  padding-top: emCalc(30);
+}
