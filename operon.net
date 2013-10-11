@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ben/git/operon/operon.sch)
-    (date "Tue 01 Oct 2013 11:23:50 WST")
+    (date "Fri 11 Oct 2013 17:09:39 WST")
     (tool "eeschema (2013-07-14 BZR 4242)-testing"))
   (components
     (comp (ref C5)
@@ -643,6 +643,19 @@
         (pin (num 4) (name ID) (type passive))
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name Shield) (type passive))))
+    (libpart (lib edalm) (part IP4221CZ6-S)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) IP4221CZ6-S)
+        (field (name Footprint) edalm:IP4221CZ6-S)
+        (field (name Datasheet) http://www.nxp.com/documents/data_sheet/IP4221CZ6-S.pdf))
+      (pins
+        (pin (num 1) (name IO1) (type input))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name IO2) (type input))
+        (pin (num 4) (name IO3) (type input))
+        (pin (num 5) (name VCC) (type power_in))
+        (pin (num 6) (name IO4) (type input))))
     (libpart (lib edalm) (part MCP6002-I_MC)
       (fields
         (field (name Reference) U)
@@ -659,19 +672,6 @@
         (pin (num 7) (name VoutB) (type output))
         (pin (num 8) (name VDD) (type power_in))
         (pin (num 9) (name GND) (type power_in))))
-    (libpart (lib edalm) (part IP4221CZ6-S)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) IP4221CZ6-S)
-        (field (name Footprint) edalm:IP4221CZ6-S)
-        (field (name Datasheet) http://www.nxp.com/documents/data_sheet/IP4221CZ6-S.pdf))
-      (pins
-        (pin (num 1) (name IO1) (type input))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name IO2) (type input))
-        (pin (num 4) (name IO3) (type input))
-        (pin (num 5) (name VCC) (type power_in))
-        (pin (num 6) (name IO4) (type input))))
     (libpart (lib edalm) (part MCP6V02-E_MD)
       (fields
         (field (name Reference) U)
