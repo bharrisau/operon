@@ -25,7 +25,7 @@ ASFLAGS  := -mcpu=cortex-m0plus
 
 #########################################################################
 
-all: $(PROJECT).s19
+all: $(PROJECT).s19 $(PROJECT).bin $(PROJECT).vect
 
 include $(patsubst %,%/module.mk,$(MODULES))
 include $(filter %.d,$(SRC:.c=.d))
@@ -37,6 +37,9 @@ OBJ      += $(patsubst %.c,%.o,$(filter %.c,$(SRC))) \
 
 $(PROJECT).bin: $(PROJECT).elf
 	$(OBJCOPY) -O binary -j .text -j .data $(PROJECT).elf $(PROJECT).bin
+
+$(PROJECT).vect: $(PROJECT).elf
+	$(OBJCOPY) -O binary -j .isr_vector $(PROJECT).elf $(PROJECT).vect
 
 $(PROJECT).hex: $(PROJECT).elf
 	$(OBJCOPY) -R .stack -O ihex $(PROJECT).elf $(PROJECT).hex
@@ -55,7 +58,12 @@ clean:
 	$(REMOVE) $(PROJECT).s19
 	$(REMOVE) $(PROJECT).map
 	$(REMOVE) $(PROJECT).bin
+	$(REMOVE) $(PROJECT).vect
 	$(REMOVE) $(OBJ:.o=.lst)
+
+# gdb ruby -I ../../mchck/programmer ../../mchck/programmer/gdbserver.rb name=ftdi:vid=0x0403:pid=0x6010
+# vector ruby -I ../../mchck/programmer ../../mchck/programmer/flash.rb name=ftdi:vid=0x0403:pid=0x6010 operon.vect 0
+# code ruby -I ../../mchck/programmer ../../mchck/programmer/flash.rb name=ftdi:vid=0x0403:pid=0x6010 operon.bin 0x800
 
 #########################################################################
 
