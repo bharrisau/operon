@@ -4,3 +4,9 @@
 [submodule "firmware/external/Freescale"]
 	path = firmware/external/Freescale
 	url = git@github.com:bharrisau/cmsis-freescale.git
+[submodule "firmware/lib/CMSIS"]
+	path = firmware/lib/CMSIS
+	url = git@github.com:bharrisau/CMSIS.git
+[submodule "firmware/lib/Freescale"]
+	path = firmware/lib/Freescale
+	url = git@github.com:bharrisau/cmsis-freescale.git
