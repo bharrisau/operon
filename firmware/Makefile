@@ -18,7 +18,7 @@ IDIR     := include
 MODULES  := lib/CMSIS/CMSIS lib/Freescale/MKL25Z
 DEVICE   := MKL25Z64
 ADAPTER  := name=ftdi:vid=0x0403:pid=0x6010
-PROG_DIR := /home/ben/git/mchck/programmer
+PROG_DIR := programmer
 
 CFLAGS   := -mcpu=cortex-m0plus -msoft-float -mthumb -ffunction-sections \
             -fdata-sections -fno-builtin -fstrict-volatile-bitfields
@@ -75,7 +75,6 @@ flash-all: flash-bin flash-vect
 debug:
 	ruby -I $(PROG_DIR) $(PROG_DIR)/gdbserver.rb name=ftdi:vid=0x0403:pid=0x6010
 
-
 #########################################################################
 
 %.o %.d: %.c
@@ -83,8 +82,5 @@ debug:
 
 %.o %.d: %.S
 	$(CPP) -MMD -MT $*.o -MF $*.d $< | $(AS) -o $*.o $(ASFLAGS) -g -alsdn=$(basename $<).lst
-
-# %.d: %.c
-# 		$(CC) $(CFLAGS) -MM -MT $*.o $^ > $@;
 
 .PHONY: test clean all depend flash-bin flash-vect flash-all

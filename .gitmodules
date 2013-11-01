@@ -10,3 +10,6 @@
 [submodule "firmware/lib/Freescale"]
 	path = firmware/lib/Freescale
 	url = git@github.com:bharrisau/cmsis-freescale.git
+[submodule "firmware/programmer"]
+	path = firmware/programmer
+	url = git@github.com:mchck/programmer.git
