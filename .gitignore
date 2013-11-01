@@ -8,3 +8,12 @@ design notes
 gerbers
 _autosave*
 operon
+
+*.bin
+*.vect
+*.elf
+*.lst
+*.o
+*.map
+*.s19
+*.d

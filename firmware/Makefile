@@ -17,6 +17,8 @@ LIBS     :=
 IDIR     := include
 MODULES  := lib/CMSIS/CMSIS lib/Freescale/MKL25Z
 DEVICE   := MKL25Z64
+ADAPTER  := name=ftdi:vid=0x0403:pid=0x6010
+PROG_DIR := /home/ben/git/mchck/programmer
 
 CFLAGS   := -mcpu=cortex-m0plus -msoft-float -mthumb -ffunction-sections \
             -fdata-sections -fno-builtin -fstrict-volatile-bitfields
@@ -61,9 +63,16 @@ clean:
 	$(REMOVE) $(PROJECT).vect
 	$(REMOVE) $(OBJ:.o=.lst)
 
+flash-vect: $(PROJECT).vect
+	ruby -I $(PROG_DIR) $(PROG_DIR)/flash.rb $(ADAPTER) $(PROJECT).vect 0
+
+flash-bin: $(PROJECT).bin
+	ruby -I $(PROG_DIR) $(PROG_DIR)/flash.rb $(ADAPTER) $(PROJECT).bin 0x800
+
+flash-all: flash-bin flash-vect
+
 # gdb ruby -I ../../mchck/programmer ../../mchck/programmer/gdbserver.rb name=ftdi:vid=0x0403:pid=0x6010
-# vector ruby -I ../../mchck/programmer ../../mchck/programmer/flash.rb name=ftdi:vid=0x0403:pid=0x6010 operon.vect 0
-# code ruby -I ../../mchck/programmer ../../mchck/programmer/flash.rb name=ftdi:vid=0x0403:pid=0x6010 operon.bin 0x800
+
 
 #########################################################################
 
@@ -76,4 +85,4 @@ clean:
 %.d: %.c
 		$(CC) $(CFLAGS) -MM -MT $*.o $^ > $@;
 
-.PHONY: test clean all depend
+.PHONY: test clean all depend flash-bin flash-vect flash-all

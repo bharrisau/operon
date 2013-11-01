@@ -7,7 +7,7 @@
 
 void _start(void) {
   //Enable clocks for PORTA and PORTD
-  SIM->SCGC5.all |= (1 << 9) | (1 << 12)
+  SIM->SCGC5.all |= (1 << 9) | (1 << 12);
 
   GPIOD->PDDR = 0x80;
   PORTD->PCR[7].DSE = 1;
