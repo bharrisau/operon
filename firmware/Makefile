@@ -30,7 +30,8 @@ ASFLAGS  := -mcpu=cortex-m0plus
 all: $(PROJECT).s19 $(PROJECT).bin $(PROJECT).vect
 
 include $(patsubst %,%/module.mk,$(MODULES))
-include $(filter %.d,$(SRC:.c=.d))
+include $(patsubst %.c,%.d,$(filter %.c,$(SRC))) \
+        $(patsubst %.S,%.d,$(filter %.S,$(SRC)))
 
 CFLAGS   += $(patsubst %,-I%,$(IDIR))
 LDFLAGS   += -T$(LSCRIPT)
@@ -54,7 +55,7 @@ $(PROJECT).elf: $(OBJ) $(LSCRIPT)
 
 clean:
 	$(REMOVE) $(OBJ)
-	$(REMOVE) $(filter %.d,$(SRC:.c=.d))
+	$(REMOVE) $(OBJ:.o=.d)
 	$(REMOVE) $(PROJECT).hex
 	$(REMOVE) $(PROJECT).elf
 	$(REMOVE) $(PROJECT).s19
@@ -76,13 +77,13 @@ flash-all: flash-bin flash-vect
 
 #########################################################################
 
-%.o: %.c
-	$(CC) -c -o $@ $< $(CFLAGS) -g -Wa,-alhsdn=$(basename $@).lst -fverbose-asm
+%.o %.d: %.c
+	$(CC) -MMD -MT $*.o -MF $*.d -c -o $*.o $< $(CFLAGS) -g -Wa,-alhsdn=$(basename $<).lst -fverbose-asm
 
-%.o: %.S
-	$(CPP) $< | $(AS) -o $@ $(ASFLAGS) -alsdn=$(basename $@).lst
+%.o %.d: %.S
+	$(CPP) -MMD -MT $*.o -MF $*.d $< | $(AS) -o $*.o $(ASFLAGS) -g -alsdn=$(basename $<).lst
 
-%.d: %.c
-		$(CC) $(CFLAGS) -MM -MT $*.o $^ > $@;
+# %.d: %.c
+# 		$(CC) $(CFLAGS) -MM -MT $*.o $^ > $@;
 
 .PHONY: test clean all depend flash-bin flash-vect flash-all
