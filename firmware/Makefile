@@ -68,11 +68,12 @@ flash-vect: $(PROJECT).vect
 	ruby -I $(PROG_DIR) $(PROG_DIR)/flash.rb $(ADAPTER) $(PROJECT).vect 0
 
 flash-bin: $(PROJECT).bin
-	ruby -I $(PROG_DIR) $(PROG_DIR)/flash.rb $(ADAPTER) $(PROJECT).bin 0x800
+	ruby -I $(PROG_DIR) $(PROG_DIR)/flash.rb $(ADAPTER) $(PROJECT).bin 0x400
 
 flash-all: flash-bin flash-vect
 
-# gdb ruby -I ../../mchck/programmer ../../mchck/programmer/gdbserver.rb name=ftdi:vid=0x0403:pid=0x6010
+debug:
+	ruby -I $(PROG_DIR) $(PROG_DIR)/gdbserver.rb name=ftdi:vid=0x0403:pid=0x6010
 
 
 #########################################################################
